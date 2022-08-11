@@ -14,8 +14,8 @@
 Thank you for visiting this repository which contain projects to learn the advanced use of *`DB's`* for the Back-End Specialization curriculum at `Holberton School`.
 
 <p align="center">
-  <img width="300"  
-        src="https://www.horizont.com.hr/posao/backend-developer.gif"
+  <img width="400"  
+        src="https://thumbs.gfycat.com/EuphoricGlaringAnkolewatusi-max-1mb.gif"
   >
 </p>
 

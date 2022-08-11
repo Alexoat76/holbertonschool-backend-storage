@@ -49,9 +49,8 @@ The projects in this repository cover:
 	
 * All files will be executed on Ubuntu 18.04 LTS using  **` MySQL 5.7 `**  (version 5.7.30)
 * All files should end with a new line
-* All SQL queries should have a comment just before (i.e. syntax above)
+* All SQL queries should have a comment just before.
 * All files should start by a comment describing the task
-* All SQL keywords should be in uppercase ( *` SELECT `* ,  *` WHERE `* …)
 * A  *` README.md `*  file, at the root of the folder of the project, is mandatory
 * The length of files will be tested using  *` wc `*
 

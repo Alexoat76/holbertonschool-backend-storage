@@ -13,7 +13,7 @@
 This project contains some tasks to implement advanced use of ***`MySQL`***
 
 <p align="center">
-  <img width="350"  
+  <img width="300"  
         src="https://www.pistalix.in/wp-content/uploads/2018/11/mysql.gif"
   >
 </p>

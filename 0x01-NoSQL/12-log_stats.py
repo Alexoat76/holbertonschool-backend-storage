@@ -1,32 +1,41 @@
 #!/usr/bin/env python3
 """
-This script provides some stats about
-Nginx logs stored in MongoDB
+This project module contains a Python script that provides
+some stats about Nginx logs stored in MongoDB.
 """
 
+# Import the MongoDB client.
 from pymongo import MongoClient
 
 
 def stats_logs() -> None:
     """
-    This function provides some stats about
-    Nginx logs stored in MongoDB
+    Function that provides some stats about Nginx logs
+    stored in MongoDB.
+    Returns:
+        Stats about Nginx logs.
     """
-    methods = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE']  # List of HTTP methods
-    client = MongoClient("mongodb://localhost:27017/")  # Connect to MongoDB
-    db = client.logs  # Select the database
-    nginx = db.nginx  # Select the collection
-    print("{}logs".format(nginx.count_documents({})))  # Count number of logs
-    print("Methods:")  # Print the methods used
+    # List of HTTP methods.
+    methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
+    # Connect to MongoDB.
+    myclient = MongoClient("mongodb://localhost:27017/")
+    my_database = myclient["logs"]  # Get the database "logs".
+    nginx = my_database["nginx"]  # Get the collection "nginx".
+    # Count the number of logs.
+    print("{} logs".format(nginx.count_documents({})))
+    print("Methods:")  # Print the HTTP methods used.
 
-    for method in methods:  # For each method in the list
-        print("{}: {}".format(
-            method, nginx.count_documents({'method': method})
-            ))
-
-    print("{} status checks".format(
-        nginx.count_documents({"method": "GET", "path": "/status"})
-        ))
+    for method in methods:  # For each HTTP method.
+        # Print the number of logs for each method and the total.
+        print(
+            "\tmethod {}: {}".format(
+                method, nginx.count_documents({"method": method}))
+        )
+        # Print the number of status checks.
+    print(
+        "{} status check".format(
+            nginx.count_documents({"method": "GET", "path": "/status"}))
+    )
 
 
 if __name__ == "__main__":

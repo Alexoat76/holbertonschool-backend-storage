@@ -17,7 +17,6 @@ def stats_logs() -> None:
     """
     # List of HTTP methods.
     methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
-    # Connect to MongoDB.
     myclient = MongoClient("mongodb://localhost:27017/")
     my_database = myclient["logs"]  # Get the database "logs".
     nginx = my_database["nginx"]  # Get the collection "nginx".

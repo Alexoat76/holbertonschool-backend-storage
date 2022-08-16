@@ -13,7 +13,7 @@
 This project contains some tasks to implement the use of ***`MongoDB`***
 
 <p align="center">
-  <img width="300"  
+  <img width="320"  
         src="https://miro.medium.com/max/1400/1*61StcD29EBuSLvAChOsVRg.gif"
   >
 </p>

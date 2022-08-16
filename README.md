@@ -31,7 +31,7 @@ Thank you for visiting this repository which contain projects to learn the advan
 	
 ## About
 The projects in this repository cover:
-  *`MySQL`* language.
+  *`SQL`*, and *`NoSQL`* languages.
 
 ## Requirements 
 
@@ -46,13 +46,19 @@ The projects in this repository cover:
 	
 ## General :page_with_curl:
 <div style="text-align: justify">
-	
+
+- A  *` README.md `*  file, at the root of the folder of the project, is mandatory
+- The length of the files will be tested using  *` wc `*
+- All files should end with a new line
+
+### MySQL Files
 * All files will be executed on Ubuntu 18.04 LTS using  **` MySQL 5.7 `**  (version 5.7.30)
-* All files should end with a new line
 * All SQL queries should have a comment just before.
 * All files should start by a comment describing the task
-* A  *` README.md `*  file, at the root of the folder of the project, is mandatory
-* The length of files will be tested using  *` wc `*
+
+### MongoDB Command File
+- All files will be interpreted/compiled on Ubuntu 18.04 LTS using  **` MongoDB `**  (version 4.2)
+- The first line of all files should be a comment:  *` // my comment `* 
 
 ## Projects 
 

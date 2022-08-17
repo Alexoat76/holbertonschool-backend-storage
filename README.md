@@ -66,6 +66,7 @@ The projects in this repository cover:
 | :--- | :---|
 | **[0x00. MySQL advanced](./0x00-MySQL_Advanced)** | Implement `Stored Procedures`,`Views`, `Triggers` and `Functions` in ***MySQL***|
 | **[0x01. NoSQL](./0x01-NoSQL)** | `Queries`, `filters`, and `aggregations` with ***MongoDB***|
+| **[0x02. Redis basic](./0x02-redis_basic)** | `Caching` with ***Redis***|
 
 ---
 

@@ -13,7 +13,7 @@
 This project contains some tasks how to implement and use ***`redis`*** for basic operations.
 
 <p align="center">
-  <img width="360"  
+  <img width="380"  
         src="https://dwglogo.com/wp-content/uploads/2017/12/1100px_Redis_Logo_01-1024x707.png"
   >
 </p>

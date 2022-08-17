@@ -13,7 +13,7 @@
 This project contains some tasks how to implement and use ***`redis`*** for basic operations.
 
 <p align="center">
-  <img width="380"  
+  <img width="360"  
         src="https://dwglogo.com/wp-content/uploads/2017/12/1100px_Redis_Logo_01-1024x707.png"
   >
 </p>
@@ -288,7 +288,7 @@ Start in a new file named   *` web.py `*   and do not reuse the code written in 
 
 Inside   *` get_page `*   track how many times a particular URL was accessed in the key   *` "count:{url}" `*   and cache the result with an expiration time of 10 seconds. <br>
 
-***Tip***: Use   *` http://slowwly.robertomurray.co.uk `*   to simulate a slow response and test your caching. <br>
+***Tip***: Use  *` http://slowwly.robertomurray.co.uk `*   to simulate a slow response and test your caching. <br>
 
 ***Bonus***: implement this use case with decorators.
 

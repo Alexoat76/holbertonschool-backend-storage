@@ -4,6 +4,7 @@
 <img src="https://img.shields.io/badge/Vim-green.svg"/>
 <img src="https://img.shields.io/badge/MySQL-blue.svg"/>
 <img src="https://img.shields.io/badge/MongoDB-ligthgreen.svg"/>
+<img src="https://img.shields.io/badge/Redis-darkred.svg"/>
 <img src="https://img.shields.io/badge/Python-blue.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
 <img src="https://img.shields.io/github/repo-size/Alexoat76/holbertonschool-backend-storage"/>

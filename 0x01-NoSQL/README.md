@@ -3,6 +3,7 @@
 <img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
 <img src="https://img.shields.io/badge/Vim-green.svg"/>
 <img src="https://img.shields.io/badge/MongoDB-darkgreen.svg"/>
+<img src="https://img.shields.io/badge/Python-blue.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>	
 </p>
 
